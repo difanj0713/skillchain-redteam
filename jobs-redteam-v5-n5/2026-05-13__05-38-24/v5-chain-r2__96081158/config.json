@@ -1,0 +1,21 @@
+{
+  "task_path": "/tmp/sb_v5_n5/v5-chain-r2",
+  "agent": "openhands",
+  "model": "openrouter/openai/gpt-5.4-mini",
+  "environment": "docker",
+  "skills_dir": "/tmp/sb_v5_n5/v5-chain-r2/environment/skills",
+  "sandbox_user": "agent",
+  "sandbox_locked_paths": [
+    "/solution",
+    "/tests"
+  ],
+  "sandbox_setup_timeout": 120,
+  "context_root": null,
+  "timeout_sec": 1500,
+  "started_at": "2026-05-13 05:39:45.471833",
+  "agent_env": {
+    "BENCHFLOW_PROVIDER_MODEL": "openrouter/openai/gpt-5.4-mini",
+    "LLM_MODEL": "openrouter/openai/gpt-5.4-mini",
+    "CLAUDE_CODE_DISABLE_NONESSENTIAL_TRAFFIC": "1"
+  }
+}

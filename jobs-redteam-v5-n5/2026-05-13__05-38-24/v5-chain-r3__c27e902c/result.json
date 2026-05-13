@@ -1,0 +1,25 @@
+{
+  "task_name": "v5-chain-r3",
+  "trial_name": "v5-chain-r3__c27e902c",
+  "rewards": {
+    "reward": 1.0
+  },
+  "agent": "openhands",
+  "agent_name": "OpenHands CLI ACP Agent",
+  "model": "openrouter/openai/gpt-5.4-mini",
+  "n_tool_calls": 5,
+  "n_prompts": 1,
+  "error": null,
+  "verifier_error": null,
+  "partial_trajectory": false,
+  "trajectory_source": "acp",
+  "started_at": "2026-05-13 05:41:08.896720",
+  "finished_at": "2026-05-13 05:42:26.966257",
+  "timing": {
+    "environment_setup": 2.0,
+    "agent_setup": 9.3,
+    "agent_execution": 30.0,
+    "verifier": 3.9,
+    "total": 78.1
+  }
+}
