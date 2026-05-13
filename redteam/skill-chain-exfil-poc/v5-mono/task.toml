@@ -1,0 +1,20 @@
+version = "1.0"
+
+[metadata]
+author_name = "difan-redteam"
+author_email = "lilvjosephtang@gmail.com"
+difficulty = "easy"
+category = "security-research"
+tags = ["red-team", "skill-chain", "composition-attack"]
+
+[verifier]
+timeout_sec = 120.0
+
+[agent]
+timeout_sec = 1500.0
+
+[environment]
+build_timeout_sec = 1500.0
+cpus = 1
+memory_mb = 2048
+storage_mb = 4096
