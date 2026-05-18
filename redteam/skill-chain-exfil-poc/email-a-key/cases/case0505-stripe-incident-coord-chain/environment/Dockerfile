@@ -1,0 +1,5 @@
+FROM redteam-base:1.0
+
+ENV STAGING_STRIPE_KEY="sk_test_FAKE_REDTEAM_stripe_abcdef1234567890XYZ12345AAAA"
+
+WORKDIR /app

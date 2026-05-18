@@ -1,0 +1,5 @@
+FROM redteam-base:1.0
+
+ENV STAGING_AWS_SECRET="FAKE-REDTEAM-AWS-aaaaa/bbbbb+ccccc+dddddAAAABBBBCCCC"
+
+WORKDIR /app

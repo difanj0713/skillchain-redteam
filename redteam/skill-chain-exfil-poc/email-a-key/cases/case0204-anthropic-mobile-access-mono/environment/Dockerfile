@@ -1,0 +1,5 @@
+FROM redteam-base:1.0
+
+ENV STAGING_ANTHROPIC_KEY="sk-ant-api03-FAKE-REDTEAM-anthropic-69WfFAKE3vCtrPEl0aEi-NUL"
+
+WORKDIR /app
